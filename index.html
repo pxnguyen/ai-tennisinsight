@@ -20,10 +20,10 @@
         .cta-bg {
             background-color: #059669; /* Emerald 600 */
         }
-        .feature-card, .pricing-card {
+        .feature-card {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-        .feature-card:hover, .pricing-card:hover {
+        .feature-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
         }
@@ -40,7 +40,7 @@
             <nav class="hidden md:flex space-x-8 items-center">
                 <a href="#features" class="text-gray-300 hover:text-emerald-400 transition-colors">Features</a>
                 <a href="#how-it-works" class="text-gray-300 hover:text-emerald-400 transition-colors">How It Works</a>
-                <a href="#pricing" class="text-gray-300 hover:text-emerald-400 transition-colors">Pricing</a>
+                <a href="#contact" class="text-gray-300 hover:text-emerald-400 transition-colors">Contact</a>
                 <button class="bg-gray-500 text-gray-300 font-bold py-2 px-4 rounded-lg cursor-not-allowed">Coming Soon</button>
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-white">
@@ -51,7 +51,7 @@
         <div id="mobile-menu" class="hidden md:hidden">
             <a href="#features" class="block py-2 px-4 text-sm text-gray-200 hover:bg-gray-700">Features</a>
             <a href="#how-it-works" class="block py-2 px-4 text-sm text-gray-200 hover:bg-gray-700">How It Works</a>
-            <a href="#pricing" class="block py-2 px-4 text-sm text-gray-200 hover:bg-gray-700">Pricing</a>
+            <a href="#contact" class="block py-2 px-4 text-sm text-gray-200 hover:bg-gray-700">Contact</a>
             <a href="#" class="block py-2 px-4 text-sm text-gray-400 cursor-not-allowed">Coming Soon</a>
         </div>
     </header>
@@ -141,44 +141,6 @@
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="py-20 bg-gray-900">
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-white">Find the Right Plan for You</h2>
-                <p class="text-gray-400 mt-2">Start for free. Upgrade when you're ready.</p>
-                <div class="w-24 h-1 bg-emerald-500 mx-auto mt-4"></div>
-            </div>
-            <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-                <!-- Plan 1: Free -->
-                <div class="pricing-card border-2 border-gray-700 bg-gray-800 p-8 rounded-lg text-center flex flex-col">
-                    <h3 class="text-2xl font-bold mb-2">Starter</h3>
-                    <p class="text-4xl font-extrabold mb-4">$0</p>
-                    <ul class="text-gray-400 space-y-2 mb-8 flex-grow">
-                        <li>1 Free Video Analysis</li>
-                        <li>Basic Form Metrics</li>
-                        <li>-</li>
-                        <li>-</li>
-                    </ul>
-                    <button class="mt-auto bg-gray-500 text-gray-300 font-bold py-3 px-6 rounded-lg cursor-not-allowed">Coming Soon</button>
-                </div>
-                <!-- Plan 2: Player -->
-                <div class="pricing-card border-2 border-emerald-500 bg-gray-800 p-8 rounded-lg text-center flex flex-col relative">
-                    <span class="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Most Popular</span>
-                    <h3 class="text-2xl font-bold mb-2 text-emerald-400">Player</h3>
-                    <p class="text-4xl font-extrabold mb-4">$19<span class="text-lg font-medium text-gray-400">/mo</span></p>
-                    <ul class="text-gray-400 space-y-2 mb-8 flex-grow">
-                        <li>Unlimited Video Analyses</li>
-                        <li>Advanced Biomechanics</li>
-                        <li>Pro Player Comparisons</li>
-                        <li>Personalized Drills & Tracking</li>
-                    </ul>
-                    <button class="mt-auto bg-gray-500 text-gray-300 font-bold py-3 px-6 rounded-lg cursor-not-allowed">Coming Soon</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer id="contact" class="bg-gray-800 border-t border-gray-700">
         <div class="container mx-auto px-6 py-12">
@@ -192,7 +154,7 @@
                     <h4 class="font-semibold text-white mb-2">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-emerald-400">Features</a></li>
-                        <li><a href="#pricing" class="text-gray-400 hover:text-emerald-400">Pricing</a></li>
+                        <li><a href="#how-it-works" class="text-gray-400 hover:text-emerald-400">How It Works</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-emerald-400">Privacy Policy</a></li>
                     </ul>
                 </div>
